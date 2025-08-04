@@ -72,7 +72,9 @@ const OnBoardingScreen = () => {
         <CustomButton
           title='Finish'
           buttonClassName='absolute bottom-6 left-0 right-0 bg-primary-100'
-          onPress={() => {}}
+          onPress={() => {
+            router.push("/(root)/(tabs)/home");
+          }}
           textClassName='text-lg font-rubik-semibold text-white'
         />
       </View>
