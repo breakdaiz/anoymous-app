@@ -1,3 +1,4 @@
+import CategorieListHomePage from "@/components/shared/home/Categories";
 import Header from "@/components/shared/home/Header";
 import SearchBar from "@/components/shared/home/SearchBar";
 import React from "react";
@@ -59,6 +60,7 @@ const Home = () => {
       <ScrollView className='flex-1'>
         <Header />
         <SearchBar />
+        <CategorieListHomePage />
       </ScrollView>
     </SafeAreaView>
   );
