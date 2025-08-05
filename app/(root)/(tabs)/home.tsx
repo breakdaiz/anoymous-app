@@ -1,5 +1,6 @@
 import CategorieListHomePage from "@/components/shared/home/Categories";
 import Header from "@/components/shared/home/Header";
+import ProductList from "@/components/shared/home/ProductList";
 import SearchBar from "@/components/shared/home/SearchBar";
 import React from "react";
 import { ScrollView } from "react-native";
@@ -61,6 +62,11 @@ const Home = () => {
         <Header />
         <SearchBar />
         <CategorieListHomePage />
+        <ProductList
+          title='Top Selling Products'
+          products={topSellingProducts}
+        />
+        <ProductList title='New In' products={newInProducts} />
       </ScrollView>
     </SafeAreaView>
   );

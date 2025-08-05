@@ -31,6 +31,7 @@ const CategorieListHomePage = () => {
           <Text className='text-base text-primary-500'>See All</Text>
         </TouchableOpacity>
       </View>
+
       <ScrollView
         horizontal
         showsHorizontalScrollIndicator={false}

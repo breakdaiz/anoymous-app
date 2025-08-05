@@ -6,7 +6,7 @@ const SearchBar = () => {
   return (
     <View
       className='flex-row items-center 
-      bg-gray-300 mx-4 my-3 px-4 py-3 rounded-full space-x-2'
+      bg-gray-100 mx-4 my-3 px-4 py-3 rounded-full space-x-2'
     >
       <SearchIcon size={20} color='#666' strokeWidth={2} />
       <TextInput
