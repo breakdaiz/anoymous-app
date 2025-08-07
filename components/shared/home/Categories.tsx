@@ -27,7 +27,9 @@ const CategorieListHomePage = () => {
         <Text className='text-2xl font-rubik-bold text-gray-800'>
           Categories
         </Text>
-        <TouchableOpacity onPress={() => router.push("/")}>
+        <TouchableOpacity
+          onPress={() => router.push("/(root)/(no-tabs)/categories")}
+        >
           <Text className='text-base text-primary-500'>See All</Text>
         </TouchableOpacity>
       </View>
